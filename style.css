@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#circle{
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: coral;
+  border-radius: 50%;
+  position: relative;
+}
+#textCircle{
+  display: none;
+  font-size: 36px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
